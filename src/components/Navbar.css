@@ -1,0 +1,15 @@
+.custom-navbar {
+    background-color: rgba(0, 0, 0, 0.3); /* ✅ Transparent */
+    backdrop-filter: blur(10px); /* ✅ Slight blur */
+}
+
+.custom-navbar .nav-link {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link.active {
+    text-decoration: underline; /* ✅ Underline when active */
+}
