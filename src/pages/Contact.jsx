@@ -1,9 +1,14 @@
 import React from 'react';
+import {Container} from 'react-bootstrap';
 
 const Contact = () => {
 	return (
-		<div>
-			<h1>Contact Page</h1>
+
+		<div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white bg-dark">
+			<Container>
+				<h2>Contact page</h2>
+			</Container>
+
 		</div>
 	);
 };

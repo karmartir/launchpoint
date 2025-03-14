@@ -1,9 +1,16 @@
-const Home = () => {
+import "bootstrap/dist/css/bootstrap.min.css";
+
+export default function Home() {
 	return (
-		<div>
-			<h1>Home Page</h1>
+		<div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white bg-dark">
+			<h1 className="fw-normal text-center" style={{ fontFamily: "Julius Sans One", fontSize: "28.7px", lineHeight: "100%" }}>
+				Launchpoint
+			</h1>
+			<div className="position-absolute bottom-0 mb-3 d-flex gap-3">
+				<a href="#" className="text-white fs-4"><i className="fab fa-facebook"></i></a>
+				<a href="#" className="text-white fs-4"><i className="fab fa-instagram"></i></a>
+				<a href="#" className="text-white fs-4"><i className="fab fa-youtube"></i></a>
+			</div>
 		</div>
 	);
-};
-
-export default Home;
+}
