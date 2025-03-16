@@ -3,7 +3,10 @@ import { NavLink } from "react-router-dom";
 
 export default function CustomNavbar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-transparent w-100 position-fixed top-0 mt-5">
+		<nav
+			className="navbar navbar-expand-lg navbar-dark w-100 position-fixed"
+			style={{ zIndex: 1000, top: "40px" }} // Adjust the value as needed
+		>
 			<Container>
 				<Nav className="ms-auto">
 					<Nav.Link as={NavLink} to="/" className="fw-normal text-white" style={{ fontFamily: "Julius Sans One", fontSize: "28.7px", lineHeight: "100%" }}>Main</Nav.Link>
