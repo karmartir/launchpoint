@@ -12,7 +12,7 @@ import Intro from './pages/Intro.jsx'; // Ensure to import the CSS file for glob
 function App() {
 
   return (
-    <>
+    <div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white" style={{ backgroundColor: "#0A1523" }}>
     <Router>
       <CustomNavbar />
       <Routes>
@@ -24,7 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
-    </>
+    </div>
   )
 }
 
