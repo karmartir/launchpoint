@@ -4,6 +4,7 @@ import emily from "../images/Emily Roberts.jpg";
 import ngozi from "../images/Ngozi Okafor.jpg";
 import john from "../images/John Park.jpg";
 import jin from "../images/Jin Woo Kim.jpg";
+import { NavLink } from "react-router-dom";
 
 const peopleData = {
 	emily: {
@@ -53,7 +54,7 @@ const SuccessStoryPage = () => {
 					<h4 style={{ color: "#e0e0e0" }}>{person.country}, {person.title}</h4>
 					<p className="mt-3">{person.description}</p>
 					<div className="mt-4 text-end">
-					    <a href="/success-stories" className="btn btn-secondary btn-sm">Back to All Stories</a>
+						<NavLink to="/success-stories" className="btn btn-secondary btn-sm">Back to All Stories</NavLink>
 					</div>
 				</div>
 			</div>
