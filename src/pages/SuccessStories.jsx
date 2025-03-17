@@ -8,21 +8,24 @@ import jin from '../images/Jin Woo Kim.jpg';
 const SuccessStories = () => {
 	return (
 		<Container className="text-center mt-5">
-			<h2 style={{ fontFamily: 'Noto Sans', fontWeight: 'lighter', textAlign: 'center' }}>
-				Success stories of Startups Fueled by Our Support
-			</h2>
-			<Row className="mt-5 justify-content-center">
-				<Col xs={6} sm={3} className="d-flex justify-content-center">
-					<img src={emily} alt="Emily" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '10px' }} />
+			<div className="ms-5">
+				<h2 style={{ fontFamily: 'Noto Sans', fontWeight: 'lighter', textAlign: 'left'}}>
+					Success stories of Startups Fueled by Our Support
+				</h2>
+			</div>
+
+			<Row className="mt-5 justify-content-center g-3">
+				<Col lg={3} md={4} sm={6} xs={12} className="d-flex justify-content-center mb-3">
+					<img src={emily} alt="Emily" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px' }} />
 				</Col>
-				<Col xs={6} sm={3} className="d-flex justify-content-center">
-					<img src={ngozi} alt="Ngozi" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '10px' }} />
+				<Col lg={3} md={4} sm={6} xs={12} className="d-flex justify-content-center mb-3">
+					<img src={ngozi} alt="Ngozi" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px' }} />
 				</Col>
-				<Col xs={6} sm={3} className="d-flex justify-content-center">
-					<img src={john} alt="John" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '10px' }} />
+				<Col lg={3} md={4} sm={6} xs={12} className="d-flex justify-content-center mb-3">
+					<img src={john} alt="John" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px' }} />
 				</Col>
-				<Col xs={6} sm={3} className="d-flex justify-content-center">
-					<img src={jin} alt="Jin" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '10px' }} />
+				<Col lg={3} md={4} sm={6} xs={12} className="d-flex justify-content-center mb-3">
+					<img src={jin} alt="Jin" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px' }} />
 				</Col>
 			</Row>
 		</Container>
