@@ -7,7 +7,8 @@ import Contact from "./pages/Contact";
 import CustomNavbar from "./components/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css';
-import Intro from './pages/Intro.jsx'; // Ensure to import the CSS file for global styles
+import Intro from './pages/Intro.jsx';
+import SuccessStoryPage from './pages/SuccessStoryPage.jsx'; // Ensure to import the CSS file for global styles
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/intro" element={<Intro />} />
         <Route path="/about" element={<About />} />
         <Route path="/success-stories" element={<SuccessStories />} />
+        <Route path="/success-stories/:personId" element={<SuccessStoryPage />} />
         <Route path="/investments" element={<Investments />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

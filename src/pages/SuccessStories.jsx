@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { NavLink } from "react-router-dom";
 import emily from '../images/Emily Roberts.jpg';
 import ngozi from '../images/Ngozi Okafor.jpg';
 import john from '../images/John Park.jpg';
@@ -16,16 +17,24 @@ const SuccessStories = () => {
 
 			<Row className="mt-5 justify-content-center g-3">
 				<Col lg={3} md={4} sm={6} xs={12} className="d-flex justify-content-center mb-3">
-					<img src={emily} alt="Emily" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px' }} />
+					<NavLink to={`/success-stories/emily`}>
+						<img src={emily} alt="Emily" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px', cursor: 'pointer' }} />
+					</NavLink>
 				</Col>
 				<Col lg={3} md={4} sm={6} xs={12} className="d-flex justify-content-center mb-3">
-					<img src={ngozi} alt="Ngozi" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px' }} />
+					<NavLink to={`/success-stories/ngozi`}>
+						<img src={ngozi} alt="Ngozi" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px', cursor: 'pointer' }} />
+					</NavLink>
 				</Col>
 				<Col lg={3} md={4} sm={6} xs={12} className="d-flex justify-content-center mb-3">
-					<img src={john} alt="John" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px' }} />
+					<NavLink to={`/success-stories/john`}>
+						<img src={john} alt="John" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px', cursor: 'pointer' }} />
+					</NavLink>
 				</Col>
 				<Col lg={3} md={4} sm={6} xs={12} className="d-flex justify-content-center mb-3">
-					<img src={jin} alt="Jin" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px' }} />
+					<NavLink to={`/success-stories/jin`}>
+						<img src={jin} alt="Jin" className="img-fluid" style={{ maxWidth: '100%', borderRadius: '5px', cursor: 'pointer' }} />
+					</NavLink>
 				</Col>
 			</Row>
 		</Container>
