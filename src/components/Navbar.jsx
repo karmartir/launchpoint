@@ -1,23 +1,38 @@
-import { Container, Nav } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 export default function CustomNavbar() {
+    // No need for state
+
 	return (
-		<nav
-			className="navbar navbar-expand-lg navbar-dark w-100 position-fixed"
-			style={{ zIndex: 1000, top: "40px" }} // Adjust the value as needed
-		>
+		<Navbar
+            expand="lg"
+            variant="dark"
+            fixed="top"
+            style={{ zIndex: 1000, top: "40px" }}>
 			<Container>
-				<Nav className="ms-auto">
-					<Nav.Link as={NavLink} to="/" className="fw-normal text-white" style={{ fontFamily: "Julius Sans One", fontSize: "28.7px", lineHeight: "100%" }}>Main</Nav.Link>
-					<Nav.Link as={NavLink} to="/intro" className="fw-normal text-white" style={{ fontFamily: "Julius Sans One", fontSize: "28.7px", lineHeight: "100%" }}>Intro</Nav.Link>
-					<Nav.Link as={NavLink} to="/about" className="fw-normal text-white" style={{ fontFamily: "Julius Sans One", fontSize: "28.7px", lineHeight: "100%" }}>About</Nav.Link>
-					<Nav.Link as={NavLink} to="/success-stories" className="fw-normal text-white" style={{ fontFamily: "Julius Sans One", fontSize: "28.7px", lineHeight: "100%" }}>Success Stories</Nav.Link>
-					<Nav.Link as={NavLink} to="/investments" className="fw-normal text-white" style={{ fontFamily: "Julius Sans One", fontSize: "28.7px", lineHeight: "100%" }}>Investments</Nav.Link>
-					<Nav.Link as={NavLink} to="/contact" className="fw-normal text-white" style={{ fontFamily: "Julius Sans One", fontSize: "28.7px", lineHeight: "100%" }}>Contact</Nav.Link>
-				</Nav>
+				<Navbar.Brand as={NavLink} to="/" className="fw-bold text-white" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }}>
+					Launchpoint
+				</Navbar.Brand>
+				<Navbar.Toggle aria-controls="navbar-nav" />
+				<Navbar.Collapse
+                    id="navbar-nav"
+                    style={{
+                        background: window.innerWidth < 992 ? "rgba(0, 0, 0, 0.8)" : "transparent",
+                        padding: window.innerWidth < 992 ? "10px" : "0",
+                        borderRadius: window.innerWidth < 992 ? "5px" : "0"
+                    }}
+                >
+					<Nav className="ms-auto">
+						<Nav.Link as={NavLink} to="/" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }}>Main</Nav.Link>
+						<Nav.Link as={NavLink} to="/intro" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }}>Intro</Nav.Link>
+						<Nav.Link as={NavLink} to="/about" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }}>About</Nav.Link>
+						<Nav.Link as={NavLink} to="/success-stories" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }}>Success Stories</Nav.Link>
+						<Nav.Link as={NavLink} to="/investments" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }}>Investments</Nav.Link>
+						<Nav.Link as={NavLink} to="/contact" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }}>Contact</Nav.Link>
+					</Nav>
+				</Navbar.Collapse>
 			</Container>
-		</nav>
+		</Navbar>
 	);
 }
-
