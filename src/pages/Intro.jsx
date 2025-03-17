@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap';
 const Intro = () => {
 	return (
 
-		<Container style={{ width: '75%', margin: 'auto'}} >
+		<Container style={{ width: '75%', margin: 'auto' }} >
 
 
 
