@@ -7,7 +7,7 @@ const Investments = () => {
 	return (
 
 		<div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white mt-4">
-			<Container style={{backgroundColor: 'rgba(128, 108, 118, 0.5)', padding: '25px', marginTop: '150px', borderRadius: '15px', paddingLeft: '50px' }}>
+			<Container style={{ padding: '25px', marginTop: '150px', borderRadius: '15px', paddingLeft: '50px' }}>
 				<h2 className="fw-normal text-center"  >Our Partners</h2>
 				<img src={investLogos} alt="Investments" />
 			</Container>
