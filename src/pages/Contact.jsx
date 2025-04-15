@@ -6,7 +6,7 @@ const Contact = () => {
 
 		<div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
 			<Container >
-				<p style={{fontSize: '2rem', textAlign: 'center', fontWeight: 'normal', fontFamily: 'Tajawal'}}>
+				<p style={{fontSize: '2rem', textAlign: 'center', fontWeight: 'lighter', fontFamily: 'Tajawal'}}>
 					880 Rochester Rd, <br/>
 					Ontario, California 91764  <br/>
 					United States  <br/>
