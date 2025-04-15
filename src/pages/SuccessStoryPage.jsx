@@ -51,11 +51,12 @@ const SuccessStoryPage = () => {
 				</div>
 				<div className="col-md-7">
 					<h2>{person.name}</h2>
-					<h4 style={{ color: "#e0e0e0" }}>{person.country}, {person.title}</h4>
-					<p className="mt-3">{person.description}</p>
-					<div className="mt-4 text-end">
-						<NavLink to="/success-stories" className="btn btn-secondary btn-sm">Back to All Stories</NavLink>
-					</div>
+					<h4 style={{ color: "#e0e0e0", marginBottom: '30px' }}>{person.country}, {person.title}</h4>
+					<p className="mt-3" style={{fontSize: '1.1rem', fontWeight: 'lighter'}}>{person.description}</p>
+
+				</div>
+				<div className="mt-4 text-end">
+					<NavLink to="/success-stories" className="btn btn-secondary btn-sm">Back to All Stories</NavLink>
 				</div>
 			</div>
 		</div>
