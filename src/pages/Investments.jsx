@@ -1,9 +1,9 @@
 import React from 'react';
 import {Container} from 'react-bootstrap';
 import investLogos from '../images/logos.png';
-import first from '../images/logos/1.svg';
-import fourth from '../images/logos/4.jpg';
-import Table from 'react-bootstrap/Table';
+// import first from '../images/logos/1.svg';
+// import fourth from '../images/logos/4.jpg';
+// import Table from 'react-bootstrap/Table';
 
 
 const Investments = () => {
