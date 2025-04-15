@@ -6,13 +6,11 @@ const Intro = () => {
 
 		<Container style={{ width: '75%', margin: 'auto' }} >
 
-
-
-
 					<h2 style={{fontSize: '45px'}}>Introduction</h2>
+			<br/>
 					<p style={{fontSize: '25px', fontWeight: 'lighter'}}>We are a platform dedicated to bridging the gap between innovative startups and visionary investors,
 						fostering meaningful connections that drive business growth. At Launchpoint, we are passionate about
-						empowering entrepreneurs and helping startups thrive. <br/>
+						empowering entrepreneurs and helping startups thrive. <br/><br/>
 						Our mission is to provide aspiring business owners
 						with the tools, resources, and guidance they need to succeed in today’s competitive market.
 						We believe that every great idea deserves a chance to grow, and we’re here to support you every step of the way.
