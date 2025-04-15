@@ -10,7 +10,7 @@ const Intro = () => {
 
 
 					<h2 style={{fontSize: '45px'}}>Introduction</h2>
-					<p style={{fontSize: '25px'}}>We are a platform dedicated to bridging the gap between innovative startups and visionary investors,
+					<p style={{fontSize: '25px', fontWeight: 'lighter'}}>We are a platform dedicated to bridging the gap between innovative startups and visionary investors,
 						fostering meaningful connections that drive business growth. At Launchpoint, we are passionate about
 						empowering entrepreneurs and helping startups thrive. <br/>
 						Our mission is to provide aspiring business owners
