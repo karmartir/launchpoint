@@ -9,8 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import Intro from './pages/Intro.jsx';
 import SuccessStoryPage from './pages/SuccessStoryPage.jsx';
-import '@fortawesome/fontawesome-free/css/all.min.css'; // ← THIS LINE
-import cover from './images/Cover.jpg';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import OurTeam from './pages/OurTeam.jsx'; // ← THIS LINE
 
 function App() {
   return (
@@ -25,8 +25,9 @@ function App() {
       >
         <CustomNavbar />
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/intro" element={<Intro />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/our-team" element={<OurTeam />} />
           <Route path="/about" element={<About />} />
           <Route path="/success-stories" element={<SuccessStories />} />
           <Route path="/success-stories/:personId" element={<SuccessStoryPage />} />

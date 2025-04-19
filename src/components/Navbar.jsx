@@ -57,8 +57,8 @@ export default function CustomNavbar() {
 					}}
 				>
 					<Nav className="ms-auto">
-						<Nav.Link as={NavLink} to="/" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }} onClick={() => setExpanded(false)}>Main</Nav.Link>
 						<Nav.Link as={NavLink} to="/intro" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }} onClick={() => setExpanded(false)}>Intro</Nav.Link>
+						<Nav.Link as={NavLink} to="/our-team" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }} onClick={() => setExpanded(false)}>Our Team</Nav.Link>
 						<Nav.Link as={NavLink} to="/about" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }} onClick={() => setExpanded(false)}>About</Nav.Link>
 						<Nav.Link as={NavLink} to="/success-stories" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }} onClick={() => setExpanded(false)}>Success Stories</Nav.Link>
 						<Nav.Link as={NavLink} to="/investments" className="fw-normal text-white me-4" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }} onClick={() => setExpanded(false)}>Investments</Nav.Link>
