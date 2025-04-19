@@ -1,18 +1,17 @@
 .success-stories-container {
-    margin-top: 7%;
+    margin-top: 8%;
 }
 
 .success-stories-title {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: lighter;
     color: white; /* Make the title text white */
 }
 
 .success-stories-image {
-    border-radius: 5%;
-    object-fit: cover;
-    object-position: top;
-    height: 95%;
+    object-fit: cover;  /* Ensures the image covers the area without distorting */
+    max-width: 100%;     /* Ensures the image is responsive and doesn't overflow */
+    height: auto;        /* Adjusts height automatically based on width */
 }
 
 .success-stories-link {
@@ -37,8 +36,8 @@
 }
 
 .success-stories-row {
-    margin-top: 5px;
-    margin-bottom: 5px; /* Adjust this value as needed */
-    justify-content: center;
-    gap: 2rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    column-gap: 0; /* reduce horizontal space */
+    row-gap: 2rem;    /* keep vertical space if you want */
 }
