@@ -4,6 +4,10 @@ import emily from "../images/Emily Roberts.jpg";
 import ngozi from "../images/Ngozi Okafor.jpg";
 import john from "../images/John Park.jpg";
 import jin from "../images/Jin Woo Kim.jpg";
+import levon from "../images/Levon.jpg";
+import tiana from "../images/Tiana.jpg";
+import jasim from "../images/Jasim.jpg";
+import amandine from "../images/amandine.jpg"
 import { NavLink } from "react-router-dom";
 
 export const peopleData = {
@@ -44,7 +48,7 @@ export const peopleData = {
 		name: "Levon Bunakhchyan",
 		country: "Armenia",
 		title: "An Innovative Entrepreneur",
-		img: jin,
+		img: levon,
 		description: "Levon Bunakhchyan approached us with a vision to create a coffee shop network in Armenia that combines the art of brewing exceptional coffee with a cozy, relaxing atmosphere. With a focus on offering an escape from the everyday hustle, Levon’s brand provides a space where people can unwind and enjoy not only premium coffee but also freshly baked goods in a tranquil setting. With our mentorship and resources, Levon refined his concept, curating a menu that celebrates the rich flavors of carefully selected coffee beans and homemade pastries. Today, his coffee shop network is growing in Armenia, offering a unique experience in serene locations beyond Yerevan, where visitors can savor delicious coffee, indulge in sweet treats, and take a moment for themselves. As his brand expands, it continues to attract a loyal following, creating a new culture of relaxation and enjoyment in the heart of Armenia."
 	},
 	tiana: {
@@ -52,7 +56,7 @@ export const peopleData = {
 		name: "Tiana Williams",
 		country: "Canada",
 		title: "Skincare Innovator",
-		img: emily,
+		img: tiana,
 		description: "Tiana Williams, a visionary skincare innovator from\n" +
 			"the United Kingdom, approached us with a groundbreaking idea to create a range of skincare\n" +
 			"products made from 100% natural ingredients. With a deep understanding of the benefits of\n" +
@@ -69,7 +73,7 @@ export const peopleData = {
 		name: "Jasim Ramsay",
 		country: "UK",
 		title: "An Innovative Entrepreneur",
-		img: ngozi,
+		img: jasim,
 		description: "Jasim Ramsay, a talented innovator from the United Kingdom, came to us with a bold vision — to\n" +
 			"reinvent the way artists connect with their audience through an online platform. His startup\n" +
 			"leverages artificial intelligence to personalize music discovery, help independent musicians reach\n" +
@@ -90,7 +94,7 @@ export const peopleData = {
 		name: "Amandine Skog",
 		country: "Belgium",
 		title: "Beauty Entrepreneur & Innovator",
-		img: ngozi,
+		img: amandine,
 		description: "Amandine Skog, a passionate beauty\n" +
 			"innovator from Belgium, approached us with a vision to create a skincare brand that blends luxury\n" +
 			"with natural wellness. With a deep commitment to inclusivity and sustainability, Amandine\n" +

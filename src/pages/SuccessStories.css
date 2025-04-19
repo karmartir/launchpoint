@@ -9,9 +9,10 @@
 }
 
 .success-stories-image {
-    object-fit: cover;  /* Ensures the image covers the area without distorting */
+    object-fit: contain;  /* Ensures the image covers the area without distorting */
     max-width: 100%;     /* Ensures the image is responsive and doesn't overflow */
     height: auto;        /* Adjusts height automatically based on width */
+    border-radius: 5px;
 }
 
 .success-stories-link {
