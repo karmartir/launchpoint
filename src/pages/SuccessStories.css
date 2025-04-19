@@ -1,0 +1,44 @@
+.success-stories-container {
+    margin-top: 7%;
+}
+
+.success-stories-title {
+    font-size: 25px;
+    font-weight: lighter;
+    color: white; /* Make the title text white */
+}
+
+.success-stories-image {
+    border-radius: 5%;
+    object-fit: cover;
+    object-position: top;
+    height: 95%;
+}
+
+.success-stories-link {
+    text-decoration: none; /* Remove link styles */
+}
+
+.success-stories-info p {
+    font-style: italic;
+    color: white !important; /* Ensure the title is white and override any other color */
+}
+
+.success-stories-info h6 {
+    font-weight: lighter;
+    font-style: italic;
+    color: white; /* Ensure the name is white */
+}
+
+.success-stories-info p {
+    font-weight: lighter;
+
+    color: white; /* Ensure the title is white */
+}
+
+.success-stories-row {
+    margin-top: 5px;
+    margin-bottom: 5px; /* Adjust this value as needed */
+    justify-content: center;
+    gap: 2rem;
+}

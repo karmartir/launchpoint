@@ -34,11 +34,14 @@ export default function CustomNavbar() {
 	return (
 		<Navbar
 			expand="lg"
-			variant="dark"
 			fixed="top"
 			expanded={expanded}
 			onToggle={() => setExpanded(!expanded)}
-			style={{ zIndex: 1000, top: "40px" }}
+			style={{
+				zIndex: 1000,
+				top: "40px",
+				backgroundColor: "transparent"
+			}}
 		>
 			<Container>
 				<Navbar.Brand as={NavLink} to="/" className="fw-bold text-white" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }}>
@@ -49,7 +52,6 @@ export default function CustomNavbar() {
 					id="navbar-nav"
 					ref={collapseRef}
 					style={{
-						background: expanded && window.innerWidth < 992 ? "rgba(0, 0, 0, 0.7)" : "transparent",
 						padding: expanded && window.innerWidth < 992 ? "20px" : "0",
 						borderRadius: expanded && window.innerWidth < 992 ? "5px" : "0",
 					}}
