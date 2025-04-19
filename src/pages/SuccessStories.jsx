@@ -9,7 +9,7 @@ const SuccessStories = () => {
 			<Container className="text-center success-stories-container" style={{ maxWidth: "1140px" }}>
             <div className="ms-5">
                 <h2 className="success-stories-title">
-                    <i>Success stories of Startups Fueled by Our Support</i>
+                    Success stories of Startups Fueled by Our Support
                 </h2>
             </div>
 
@@ -21,7 +21,7 @@ const SuccessStories = () => {
                             <NavLink to={`/success-stories/${person.id}`} style={{ textDecoration: 'none' }}>
                                 <img src={person.img} alt={person.name} className="img-fluid success-stories-image" />
                                 <div className="success-stories-info mt-1">
-                                    <h6 className="text-white">{person.name}</h6>
+                                    <h5 className="text-white">{person.name}</h5>
                                 </div>
                             </NavLink>
                         </Col>
