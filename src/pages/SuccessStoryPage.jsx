@@ -1,13 +1,5 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import emily from "../images/Emily Roberts.jpg";
-import ngozi from "../images/Ngozi Okafor.jpg";
-import john from "../images/John Park.jpg";
-import jin from "../images/Jin Woo Kim.jpg";
-import levon from "../images/Levon.jpg";
-import tiana from "../images/Tiana.jpg";
-import jasim from "../images/Jasim.jpg";
-import amandine from "../images/amandine.jpg"
 import { NavLink } from "react-router-dom";
 import {peopleData} from './PeopleData.jsx';
 
