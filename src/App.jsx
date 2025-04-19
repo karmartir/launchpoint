@@ -9,11 +9,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import Intro from './pages/Intro.jsx';
 import SuccessStoryPage from './pages/SuccessStoryPage.jsx';
+import '@fortawesome/fontawesome-free/css/all.min.css'; // ← THIS LINE
+import cover from './images/Cover.jpg';
 
 function App() {
   return (
     <Router>
-      <div className="d-flex flex-column justify-content-center align-items-center text-white" style={{ backgroundColor: "#0A1523", minHeight: "100vh", width: "100%" }}>
+      <div
+        className="d-flex flex-column justify-content-center align-items-center text-white"
+        style={{
+          backgroundColor: "#0A1523",
+          width: "100%",
+          minHeight: "100vh"
+        }}
+      >
         <CustomNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
