@@ -6,6 +6,8 @@ import sean from '../images/ourTeam/Sean Stanton.jpg';
 import eric from '../images/ourTeam/Eric Johansson.jpg';
 import hanna from '../images/ourTeam/Hanna Abadie.jpg';
 import darren from '../images/ourTeam/Daren Bow.jpg';
+import flavio from '../images/ourTeam/Flavio Cabral.jpg';
+import marko from '../images/ourTeam/Marko Butorac.jpg';
 
 
 export const OurTeamData = {
@@ -63,6 +65,20 @@ export const OurTeamData = {
 		name: "Daren Bow",
 		title: "Community Manager",
 		img: darren,
+		description: ""
+	},
+	flavio: {
+		id: "flavio",  // Added id
+		name: "Flavio Cabral",
+		title: "Marketing Manager",
+		img: flavio,
+		description: ""
+	},
+	marko: {
+		id: "marko",  // Added id
+		name: "Marko Butorac",
+		title: "Business Development Manager",
+		img: marko,
 		description: ""
 	},
 
