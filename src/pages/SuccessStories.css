@@ -24,7 +24,7 @@
     color: white !important; /* Ensure the title is white and override any other color */
 }
 
-.success-stories-info h5 {
+.success-stories-info h5,h6 {
     font-weight: lighter;
 
     color: white; /* Ensure the name is white */

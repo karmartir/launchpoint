@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import {peopleData} from '../data/PeopleData.jsx';
 
-const SuccessStoryPage = () => {
+const TeamMember = () => {
 	const { personId } = useParams();
 	const person = peopleData[personId];
 
@@ -29,4 +29,4 @@ const SuccessStoryPage = () => {
 	);
 };
 
-export default SuccessStoryPage;
+export default TeamMember;

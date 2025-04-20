@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
-import { peopleData } from './PeopleData.jsx';
+import { peopleData } from '../data/PeopleData.jsx';
 import './SuccessStories.css'; // Import the new CSS file
 
 const SuccessStories = () => {
