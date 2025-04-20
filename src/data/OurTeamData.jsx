@@ -2,6 +2,10 @@ import david from '../images/ourTeam/David Johnson.jpg';
 import miranda from '../images/ourTeam/Miranda Alvarez.jpg';
 import zoe from '../images/ourTeam/Zoe Lindberg.jpg';
 import farhang from '../images/ourTeam/Farhang Ghasemi.jpg';
+import sean from '../images/ourTeam/Sean Stanton.jpg';
+import eric from '../images/ourTeam/Eric Johansson.jpg';
+import hanna from '../images/ourTeam/Hanna Abadie.jpg';
+import darren from '../images/ourTeam/Daren Bow.jpg';
 
 
 export const OurTeamData = {
@@ -31,6 +35,34 @@ export const OurTeamData = {
 		name: "Farhang Ghasemi",
 		title: "Chief Marketing Officer",
 		img: farhang,
+		description: ""
+	},
+	sean: {
+		id: "sean",  // Added id
+		name: "Sean Stanton",
+		title: "Chief Operating Officer",
+		img: sean,
+		description: ""
+	},
+	eric: {
+		id: "eric",  // Added id
+		name: "Eric Johansson",
+		title: "Partnerships Manager",
+		img: eric,
+		description: ""
+	},
+	hanna: {
+		id: "hanna",  // Added id
+		name: "Hanna Abadie",
+		title: "Product Manager",
+		img: hanna,
+		description: ""
+	},
+	darren: {
+		id: "darren",  // Added id
+		name: "Daren Bow",
+		title: "Community Manager",
+		img: darren,
 		description: ""
 	},
 

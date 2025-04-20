@@ -7,13 +7,13 @@ const OurTeam = () => {
 
 	return (
 		<Container className="text-center success-stories-container" style={{ maxWidth: "1140px" }}>
-			<div className="ms-5">
-				<h2 className="success-stories-title">
-					Meet our team of passionate experts driving bold ideas forward.
-				</h2>
-			</div>
+			{/*<div className="ms-5">*/}
+			{/*	<h2 className="success-stories-title">*/}
+			{/*		Meet our team of passionate experts driving bold ideas forward.*/}
+			{/*	</h2>*/}
+			{/*</div>*/}
 
-			<Row className="success-stories-row mt-4 g-3" style={{ marginTop: '20px' }}>
+			<Row className="success-stories-row mt-1 g-3" style={{ marginTop: '10px' }}>
 				{Object.keys(OurTeamData ).map((key) => {
 					const person = OurTeamData[key];
 					return (
