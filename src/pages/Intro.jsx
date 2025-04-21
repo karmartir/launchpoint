@@ -6,7 +6,7 @@ const Intro = () => {
 
 		<Container style={{ width: '75%', margin: 'auto' }} >
 
-					<h2 style={{fontSize: '45px'}}>Introduction</h2>
+					<h2 style={{fontSize: '45px', color: 'aqua'}}>Introduction</h2>
 			<br/>
 					<p style={{fontSize: '25px', fontWeight: 'lighter'}}>We are a platform dedicated to bridging the gap between innovative startups and visionary investors,
 						fostering meaningful connections that drive business growth. At Launchpoint, we are passionate about
