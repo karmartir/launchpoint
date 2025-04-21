@@ -8,6 +8,8 @@ import hanna from '../images/ourTeam/Hanna Abadie.jpg';
 import darren from '../images/ourTeam/Daren Bow.jpg';
 import flavio from '../images/ourTeam/Flavio Cabral.jpg';
 import marko from '../images/ourTeam/Marko Butorac.jpg';
+import anastasia from '../images/ourTeam/Anastasia Demchenko.jpg';
+import niklas from '../images/ourTeam/Niklas Vogel.jpg';
 
 
 export const OurTeamData = {
@@ -79,6 +81,20 @@ export const OurTeamData = {
 		name: "Marko Butorac",
 		title: "Business Development Manager",
 		img: marko,
+		description: ""
+	},
+	anastasia: {
+		id: "anastasia",  // Added id
+		name: "Anastasia Demchenko",
+		title: "Startup Sucess Manager",
+		img: anastasia,
+		description: ""
+	},
+	niklas: {
+		id: "niklas",  // Added id
+		name: "Niklas Vogel",
+		title: "Program Director / Innovation Program Manager",
+		img: niklas,
 		description: ""
 	},
 

@@ -69,7 +69,7 @@ export const peopleData = {
 		id: "jasim",
 		name: "Jasim Ramsay",
 		country: "UK",
-		title: "An Innovative Entrepreneur",
+		title: "An innovative entrepreneur, music producer",
 		img: jasim,
 		description: "Jasim Ramsay, a talented innovator from the United Kingdom, came to us with a bold vision — to\n" +
 			"reinvent the way artists connect with their audience through an online platform. His startup\n" +

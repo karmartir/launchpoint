@@ -16,8 +16,8 @@ const SuccessStoryPage = () => {
 					<img src={person.img} alt={person.name} className="img-fluid" style={{ borderRadius: "10px", maxWidth: "100%" }} />
 				</div>
 				<div className="col-md-7">
-					<h2>{person.name}</h2>
-					<h4 style={{ color: "#e0e0e0", marginBottom: '30px' }}>{person.country}, {person.title}</h4>
+					<h2>{person.name}, ({person.country})</h2>
+					<h4 style={{ color: "rgba(224,224,224,0.82)", marginBottom: '30px', fontSize: '1.2rem' }}>{person.title}</h4>
 					<p className="mt-3" style={{fontSize: '1.1rem', fontWeight: 'lighter'}}>{person.description}</p>
 
 				</div>
