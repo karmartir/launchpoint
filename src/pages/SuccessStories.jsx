@@ -19,7 +19,7 @@ const SuccessStories = () => {
                     return (
                         <Col lg={3} md={4} sm={12} className="success-stories-column" key={person.id}>
                             <NavLink to={`/success-stories/${person.id}`} style={{ textDecoration: 'none' }}>
-                                <img src={person.img} alt={person.name} className="img-fluid success-stories-image" />
+                                <img src={person.img} alt={person.name} className="img-fluid success-stories-image mb-2" />
                                 <div className="success-stories-info mt-1">
                                     <h5 className="text-white">{person.name}</h5>
                                 </div>
