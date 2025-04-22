@@ -1,56 +1,36 @@
 import React from 'react';
-import {Container} from 'react-bootstrap';
-import investLogos from '../images/logos.png';
-// import first from '../images/logos/1.svg';
-// import fourth from '../images/logos/4.jpg';
-// import Table from 'react-bootstrap/Table';
+import {Col, Container, Row} from 'react-bootstrap';
+import first from '../images/logos/forma-logo-1.png';
+import second from '../images/logos/forma-logo-2.png';
+import third from '../images/logos/forma-logo-3.png';
 
 
 const Investments = () => {
 	return (
 
-		<div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white mt-4">
-			<Container style={{ padding: '25px', marginTop: '150px', borderRadius: '15px', paddingLeft: '50px' }}>
 
-				{/*<Table  bordered hover>*/}
-				{/*	<thead>*/}
-				{/*	<tr>*/}
-				{/*		<th>*/}
-				{/*			<img src={first} alt="uhaul"/>*/}
-				{/*			</th>*/}
-				{/*		<th>	<img className='small' src={fourth} alt="fourth"/></th>*/}
-				{/*		<th>Last Name</th>*/}
-
-				{/*	</tr>*/}
-				{/*	</thead>*/}
-				{/*	<tbody>*/}
-				{/*	<tr>*/}
-
-				{/*		<td>Mark</td>*/}
-				{/*		<td>Otto</td>*/}
-				{/*		<td>@mdo</td>*/}
-				{/*	</tr>*/}
-				{/*	<tr>*/}
-
-				{/*		<td>Jacob</td>*/}
-				{/*		<td>Thornton</td>*/}
-				{/*		<td>@fat</td>*/}
-				{/*	</tr>*/}
-				{/*	<tr>*/}
-
-				{/*		<td colSpan={2}>Larry the Bird</td>*/}
-				{/*		<td>@twitter</td>*/}
-				{/*	</tr>*/}
-				{/*	</tbody>*/}
-				{/*</Table>*/}
+		<Container className='mt-5'>
+			<h2 className="fw-normal text-center mt-5 pt-5">Our Partners</h2>
 
 
+				<Row className="d-flex justify-content-center align-items-center gx-5" >
 
-				<h2 className="fw-normal text-center"  >Our Partners</h2>
-				<img src={investLogos} alt="Investments" />
-			</Container>
+					<Col lg={3} md={6} sm={12} className="d-flex justify-content-center mb-2">
+						<img src={first} alt="first logos" className="img-fluid"/>
+					</Col>
+					<Col lg={3} md={6} sm={12} className="d-flex justify-content-center mb-2">
+						<img src={second} alt="first logos" className="img-fluid"/>
+					</Col>
+					<Col lg={3} md={6} sm={12} className="d-flex justify-content-center mb-2">
+						<img src={third} alt="first logos" className="img-fluid"/>
+					</Col>
 
-		</div>
+
+				</Row>
+
+		</Container>
+
+
 	);
 };
 
