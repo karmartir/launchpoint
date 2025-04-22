@@ -24,7 +24,6 @@ function App() {
         }}
       >
         <CustomNavbar/>
-        <br/>
         <Routes>
           <Route path="/intro" element={<Intro />} />
           <Route path="/" element={<Home />} />
