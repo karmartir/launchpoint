@@ -15,13 +15,13 @@ const Investments = () => {
 
 				<Row className="d-flex justify-content-center align-items-center gx-5" >
 
-					<Col lg={3} md={6} sm={12} className="d-flex justify-content-center mb-2">
+					<Col lg={3} md={12} sm={12} className="d-flex justify-content-center mb-2">
 						<img src={first} alt="first logos" className="img-fluid"/>
 					</Col>
-					<Col lg={3} md={6} sm={12} className="d-flex justify-content-center mb-2">
+					<Col lg={3} md={12} sm={12} className="d-flex justify-content-center mb-2">
 						<img src={second} alt="first logos" className="img-fluid"/>
 					</Col>
-					<Col lg={3} md={6} sm={12} className="d-flex justify-content-center mb-2">
+					<Col lg={3} md={12} sm={12} className="d-flex justify-content-center mb-2">
 						<img src={third} alt="first logos" className="img-fluid"/>
 					</Col>
 
