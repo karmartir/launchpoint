@@ -33,5 +33,12 @@
         font-size: 46px !important;
     }
 
-
+    @media (max-width: 991px) {
+        .bio-text {
+            margin-top: 60px !important;
+            text-align: center;
+            padding: 10px;
+            font-size: 22px !important;
+        }
+}
 }
