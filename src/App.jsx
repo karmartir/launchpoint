@@ -19,11 +19,12 @@ function App() {
         className="d-flex flex-column justify-content-center align-items-center text-white"
         style={{
           backgroundColor: "#0A1523",
-          width: "100%",
+          width: "100vw",
           minHeight: "100vh"
         }}
       >
-        <CustomNavbar />
+        <CustomNavbar/>
+        <br/>
         <Routes>
           <Route path="/intro" element={<Intro />} />
           <Route path="/" element={<Home />} />

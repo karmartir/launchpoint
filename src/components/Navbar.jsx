@@ -7,6 +7,9 @@ export default function CustomNavbar() {
 	const collapseRef = useRef(null);
 	const location = useLocation();
 
+
+
+
 	useEffect(() => {
 		const handleClickOutside = (event) => {
 			if (
@@ -40,30 +43,39 @@ export default function CustomNavbar() {
 			style={{
 				zIndex: 1000,
 				top: "40px",
-				backgroundColor: "transparent"
+				backgroundColor: "transparent",
 			}}
 		>
-			<Container>
+			<Container >
 				<Navbar.Brand as={NavLink} to="/" className="fw-bold text-white" style={{ fontFamily: "'Julius Sans One', sans-serif", fontSize: "26px" }}>
 					Launchpoint
 				</Navbar.Brand>
 				<Navbar.Toggle
 					aria-controls="navbar-nav"
 					onClick={() => setExpanded(!expanded)}
+					className="custom-hamburger"
 					style={{
 						borderColor: "white",
 						color: "white",
-						backgroundColor: expanded ? "rgba(10, 21, 35, 0.5)" : "rgba(250,250,250,0.46)"
+						backgroundColor: expanded ? "rgb(248,248,248, 0)" : "rgb(250,250,250, 0)",
 					}}
-				/>
+				>
+					<span className="custom-hamburger-icon">
+						<svg width="30" height="30" viewBox="0 0 30 30">
+							<line x1="4" y1="7" x2="26" y2="7" stroke="white" strokeWidth="2" />
+							<line x1="4" y1="15" x2="26" y2="15" stroke="white" strokeWidth="2" />
+							<line x1="4" y1="23" x2="26" y2="23" stroke="white" strokeWidth="2" />
+						</svg>
+					</span>
+				</Navbar.Toggle>
 				<Navbar.Collapse
 					id="navbar-nav"
 					ref={collapseRef}
 					style={{
-						padding: expanded && window.innerWidth < 992 ? "20px" : "0",
-						borderRadius: expanded && window.innerWidth < 992 ? "5px" : "0",
-						backgroundColor: expanded ? "rgba(10, 21, 35, 0.5)" : "rgba(10, 21, 35, 0.9)",
-						fontSize: expanded ? "30px" : "26px",
+						padding: expanded && window.innerWidth < 992 ? "15px" : "0",
+						borderRadius: expanded && window.innerWidth < 992 ? "10px" : "0",
+						backgroundColor: expanded ? "rgba(10, 21, 35, 0.5)" : "transparent",
+
 					}}
 				>
 					<Nav className="ms-auto">

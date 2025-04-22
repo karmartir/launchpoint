@@ -9,12 +9,9 @@ const Investments = () => {
 	return (
 
 
-		<Container className='mt-5'>
-			<h2 className="fw-normal text-center mt-5 pt-5">Our Partners</h2>
-
-
-				<Row className="d-flex justify-content-center align-items-center gx-5" >
-
+		<Container style={{ marginTop: '130px' }}>
+				<Row className="d-flex justify-content-center align-items-center g-5" >
+					<h2 className="fw-normal text-center mb-5">Our Partners</h2>
 					<Col lg={3} md={12} sm={12} className="d-flex justify-content-center mb-2">
 						<img src={first} alt="first logos" className="img-fluid"/>
 					</Col>

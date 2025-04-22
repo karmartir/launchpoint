@@ -5,6 +5,7 @@
     text-decoration: none;
   }
 
+
   .nav-link.active {
     text-decoration: underline;
       text-underline-offset: 15px;
@@ -20,4 +21,10 @@
     .nav-link {
         font-size: 14px !important;
     }
+}
+@media (max-width: 991px) {
+    .nav-link {
+        font-size: 26px !important;
+    }
+
 }

@@ -6,7 +6,7 @@ import './SuccessStories.css'; // Import the new CSS file
 const OurTeam = () => {
 
 	return (
-		<Container className="text-center success-stories-container" style={{ maxWidth: "1140px" }}>
+		<Container className="text-center success-stories-container" style={{ maxWidth: "1140px", marginTop: '150px' }}>
 			{/*<div className="ms-5">*/}
 			{/*	<h2 className="success-stories-title">*/}
 			{/*		Meet our team of passionate experts driving bold ideas forward.*/}

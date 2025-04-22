@@ -6,10 +6,10 @@ import './SuccessStories.css'; // Import the new CSS file
 const SuccessStories = () => {
 
     return (
-			<Container className="text-center success-stories-container" style={{ maxWidth: "1140px" }}>
+			<Container className="text-center success-stories-container" style={{ maxWidth: "1140px" , marginTop: '150px'}}>
             <div className="ms-5">
                 <h2 className="success-stories-title">
-                    Success stories of Startups Fueled by Our Support
+          Startups Fueled by Our Support
                 </h2>
             </div>
 
