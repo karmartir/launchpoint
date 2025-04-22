@@ -18,7 +18,7 @@ export default function Home() {
 			}}
 		>
 			<div className="d-flex flex-column justify-content-center align-items-center h-100">
-				<h1 className="fw-normal text-center" style={{ fontFamily: "Julius Sans One", fontSize: "4rem", lineHeight: "100%" }}>
+				<h1 className="fw-normal text-center point" style={{ fontFamily: "Julius Sans One", fontSize: "4rem", lineHeight: "100%" }}>
 					Launchpoint
 				</h1>
 			</div>

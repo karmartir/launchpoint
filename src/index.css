@@ -26,5 +26,12 @@
     .nav-link {
         font-size: 26px !important;
     }
+}
+
+@media (max-width: 991px) {
+    .point {
+        font-size: 46px !important;
+    }
+
 
 }
