@@ -13,11 +13,11 @@ const SuccessStoryPage = () => {
 		<div className="container" style={{ marginTop: '150px' }}>
 			<div className="row align-items-center">
 				<div className="col-md-5 text-center">
-					<img src={person.img} alt={person.name} className="img-fluid" style={{ borderRadius: "10px", maxWidth: "100%" }} />
+					<img src={person.img} alt={person.name} className="img-fluid" style={{ borderRadius: "10px", maxWidth: "100%", fontSize: '1.2rem'}} />
 				</div>
 				<div className="col-md-7 bio-text">
-					<h2 style={{ color: "rgba(224,224,224,0.82)"}}>{person.name}, ({person.country})</h2>
-					<h4 style={{ color: "rgba(224,224,224,0.82)", marginBottom: '30px', fontSize: '1.2rem' }}>{person.title}</h4>
+					<h2 style={{ color: "rgba(224,224,224,0.82)", fontWeight:'lighter'}}>{person.name}, ({person.country})</h2>
+					<h4 style={{ color: "rgba(224,224,224,0.82)", marginBottom: '30px', fontSize: '1.2rem', fontWeight:'lighter' }}>{person.title}</h4>
 					<p className="mt-3 bio-text" style={styles}>{person.description}</p>
 
 				</div>
