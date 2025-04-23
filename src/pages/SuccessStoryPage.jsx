@@ -10,7 +10,7 @@ const SuccessStoryPage = () => {
 	if (!person) return <h2 className="text-center mt-5">Person not found.</h2>;
 
 	return (
-		<div className="container" style={{ marginTop: '150px' }}>
+		<div className="container" style={{ marginTop: '150px'}}>
 			<div className="row align-items-center">
 				<div className="col-md-5 text-center">
 					<img src={person.img} alt={person.name} className="img-fluid" style={{ borderRadius: "10px", maxWidth: "100%", fontSize: '1.2rem'}} />
@@ -22,7 +22,7 @@ const SuccessStoryPage = () => {
 
 				</div>
 				<div className="mt-4 text-end">
-					<NavLink to="/success-stories" className="btn btn-secondary btn-sm">Back to All Stories</NavLink>
+					<NavLink to="/success-stories" className="btn btn-secondary btn-md">Back to All Stories</NavLink>
 				</div>
 			</div>
 		</div>

@@ -12,7 +12,7 @@ const Contact = () => {
 					Ontario, California 91764  <br/>
 					United States  <br/>
 					<br/>
-					<span style={{fontSize: '1.6rem', fontWeight: 'normal'}} className="mobile-font-size">
+					<span style={{fontSize: '1.6rem', fontWeight: 'lighter'}} className="mobile-font-size">
 					Head office phone: <span>(909) 481-8411</span>   <br/>
 					Whatsapp: (909) 482-8411  <br/>
 					General inquiries:  info@launchpoint.com  <br/>
