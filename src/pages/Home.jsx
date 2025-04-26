@@ -29,22 +29,38 @@ export default function Home() {
 			</div>
 
 			<div
-				className="position-absolute d-flex gap-3 align-items-start"
+				className="position-absolute d-flex align-items-center justify-content-center text-center"
 				style={{
 					bottom: "16%",
 					right: "19%",
 				}}
 			>
-				<a href="#" style={{ marginRight: "1.5rem" }}>
+				<a
+					href="#"
+					className="d-flex align-items-center justify-content-center"
+					style={{ width: "40px", height: "40px", gap: "10px"}}
+				>
 					<img src={facebookIcon} alt="Facebook" style={{ width: "32px", height: "32px" }} />
 				</a>
-				<a href="#" style={{ marginRight: "1.5rem" }}>
+				<a
+					href="#"
+					className="d-flex align-items-center justify-content-center"
+					style={{ width: "40px", height: "40px"}}
+				>
 					<img src={x} alt="X" style={{ width: "32px", height: "32px" }} />
 				</a>
-				<a href="#" style={{ marginRight: "1.5rem" }}>
+				<a
+					href="#"
+					className="d-flex align-items-center justify-content-center"
+					style={{ width: "40px", height: "40px", }}
+				>
 					<img src={instagramIcon} alt="Instagram" style={{ width: "32px", height: "32px" }} />
 				</a>
-				<a href="#" style={{ marginRight: "1.5rem" }}>
+				<a
+					href="#"
+					className="d-flex align-items-center justify-content-center"
+					style={{ width: "40px", height: "40px", }}
+				>
 					<img src={youtubeIcon} alt="YouTube" style={{ width: "32px", height: "32px" }} />
 				</a>
 
