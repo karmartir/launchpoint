@@ -66,7 +66,7 @@ const ReplyForm = () => {
 					<input
 						type="email"
 						className="form-control"
-						placeholder="Your Email"
+						placeholder="Your email"
 						value={email}
 						onChange={(e) => setEmail(e.target.value)}
 						style={{
