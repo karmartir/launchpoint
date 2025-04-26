@@ -11,7 +11,9 @@ const Contact = () => {
 				<ReplyForm />
 				<p style={styles} >
 					880 Rochester Rd, <br/>
-					Ontario, California 91764, United States  <br/>
+					Ontario, California 91764,
+					<br/>
+					United States  <br/>
 					<br/>
 					<span style={{fontSize: '1.6rem', fontWeight: 'lighter'}} className="mobile-font-size">
 					Head office phone: <span>(909) 481-8411</span>   <br/>
