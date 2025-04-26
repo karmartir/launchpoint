@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import cover from "../images/Cover.jpg";
-import facebookIcon from "../images/icons/FB.svg";
-import instagramIcon from "../images/icons/IN.svg";
+import facebookIcon from "../images/icons/fb.svg";
+import instagramIcon from "../images/icons/in.svg";
 import youtubeIcon from "../images/icons/youtube.svg";
 import x from "../images/icons/x.svg";
 
