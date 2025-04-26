@@ -40,7 +40,7 @@ export default function Home() {
 					className="d-flex align-items-center justify-content-center ms-2"
 					style={{ width: "40px", height: "40px", gap: "10px"}}
 				>
-					<img src={facebookIcon} alt="Facebook" style={{ width: "28px", height: "28px" }} />
+					<img src={facebookIcon} alt="Facebook" style={{ width: "28px", height: "28px",  marginBottom: '5px' }} />
 				</a>
 				<a
 					href="#"
@@ -61,7 +61,7 @@ export default function Home() {
 					className="d-flex align-items-center justify-content-center ms-2"
 					style={{ width: "40px", height: "40px", }}
 				>
-					<img src={youtubeIcon} alt="YouTube" style={{ width: "32px", height: "32px" }} />
+					<img src={youtubeIcon} alt="YouTube" style={{ width: "32px", height: "32px", marginTop: '2px' }} />
 				</a>
 
 				{/*<a href="#" className="text-white fs-4" style={{ marginRight: "1.5rem" }}><img src={youtubeIcon} alt='X icon'></img></a>*/}
