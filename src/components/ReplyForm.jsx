@@ -1,0 +1,87 @@
+import React, { useState } from 'react';
+
+const ReplyForm = () => {
+	const [name, setName] = useState('');
+	const [message, setMessage] = useState('');
+	const [status, setStatus] = useState('');
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+
+		if (name.trim() && message.trim()) {
+			setStatus('Sent successfully!');
+		} else {
+			setStatus('Please fill out all fields.');
+		}
+
+		// Clear form after showing the message briefly
+		setTimeout(() => {
+			setName('');
+			setMessage('');
+			setStatus('');
+		}, 3000);
+	};
+
+	return (
+		<div className="reply-form-container" style={{marginTop: '150px', marginBottom: '30px', textAlign: 'center' }}>
+			<h4
+				style={{
+					color: 'white',
+					fontFamily: 'Julius Sans One, sans-serif',
+					marginBottom: '25px',
+				}}
+			>
+				If you want to contact us, please fill out the form below.
+			</h4>
+			<form onSubmit={handleSubmit} style={{ maxWidth: '500px', margin: '0 auto' }}>
+				<div className="mb-3">
+					<input
+						type="text"
+						className="form-control"
+						placeholder="Your Name"
+						value={name}
+						onChange={(e) => setName(e.target.value)}
+						style={{
+							backgroundColor: 'rgba(255, 255, 255, 0.05)',
+							border: '1px solid rgba(255, 255, 255, 0.3)',
+							color: 'white',
+							borderRadius: '8px',
+							padding: '10px',
+						}}
+					/>
+				</div>
+				<div className="mb-3">
+					<textarea
+						className="form-control"
+						placeholder="Your Message"
+						rows="4"
+						value={message}
+						onChange={(e) => setMessage(e.target.value)}
+						style={{
+							backgroundColor: 'rgba(255, 255, 255, 0.05)',
+							border: '1px solid rgba(255, 255, 255, 0.3)',
+							color: 'white',
+							borderRadius: '8px',
+							padding: '10px',
+						}}
+					></textarea>
+				</div>
+				<button
+					type="submit"
+					className="btn btn-primary"
+					style={{
+						borderRadius: '8px',
+						padding: '10px 20px',
+						backgroundColor: '#0A1523',
+						border: '1px solid white',
+					}}
+				>
+					Send
+				</button>
+			</form>
+			{status && <div className="mt-3 text-success">{status}</div>}
+		</div>
+	);
+};
+
+export default ReplyForm;

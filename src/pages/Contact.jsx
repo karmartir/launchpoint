@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container} from 'react-bootstrap';
+import ReplyForm from '../components/ReplyForm.jsx';
 
 const Contact = () => {
 	const styles = {fontSize: '30px', fontWeight: 'lighter', color: 'rgba(255,253,253,0.62)', textAlign: "center"}
@@ -7,6 +8,7 @@ const Contact = () => {
 
 		<div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
 			<Container >
+				<ReplyForm />
 				<p style={styles} >
 					880 Rochester Rd, <br/>
 					Ontario, California 91764  <br/>
