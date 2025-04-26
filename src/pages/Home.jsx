@@ -37,10 +37,10 @@ export default function Home() {
 			>
 				<a
 					href="#"
-					className="d-flex align-items-center justify-content-center ms-2"
-					style={{ width: "40px", height: "40px", gap: "10px"}}
+					className="d-flex align-items-center justify-content-center"
+					style={{ width: "40px", height: "40px", }}
 				>
-					<img src={facebookIcon} alt="Facebook" style={{ width: "28px", height: "28px",  marginBottom: '5px' }} />
+					<img src={facebookIcon} alt="Facebook" style={{ width: "28px", height: "28px", marginLeft: '5px',  marginBottom: '5px' }} />
 				</a>
 				<a
 					href="#"
