@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import cover from "../images/Cover.jpg";
-import facebookIcon from "../images/icons/fb.svg";
-import instagramIcon from "../images/icons/in.svg";
+import facebookIcon from "../images/icons/facebook.svg";
+import instagramIcon from "../images/icons/linkedIn.svg";
 import youtubeIcon from "../images/icons/youtube.svg";
-import x from "../images/icons/x.svg";
+import x from "../images/icons/aks.svg";
 
 export default function Home() {
 	return (
