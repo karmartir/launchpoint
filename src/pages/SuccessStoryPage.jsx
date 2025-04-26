@@ -1,12 +1,17 @@
 import React from "react";
-import { useParams } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import {peopleData} from '../data/PeopleData.jsx';
 
 const SuccessStoryPage = () => {
 	const { personId } = useParams();
 	const person = peopleData[personId];
 	const styles = {fontSize: '1.1rem', fontWeight: 'lighter', color: 'rgba(255,253,253,0.62)'}
+	const navigate = useNavigate();
+	const handleBackClick = () => {
+		setTimeout(() => {
+			navigate("/success-stories");
+		}, 500);
+	};
 	if (!person) return <h2 className="text-center mt-5">Person not found.</h2>;
 
 	return (
@@ -22,7 +27,7 @@ const SuccessStoryPage = () => {
 
 				</div>
 				<div className="mt-4 text-end">
-					<NavLink to="/success-stories" className="btn btn-secondary btn-md">Back to All Stories</NavLink>
+					<button onClick={handleBackClick} className="btn btn-secondary btn-md">Back to All Stories</button>
 				</div>
 			</div>
 		</div>
