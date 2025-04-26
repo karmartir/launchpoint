@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import cover from "../images/Cover.jpg";
 import facebookIcon from "../images/icons/facebook.svg";
-import instagramIcon from "../images/icons/linkedIn.svg";
+import linkedIn from "../images/icons/linkedIn.svg";
 import youtubeIcon from "../images/icons/youtube.svg";
 import x from "../images/icons/aks.svg";
 
@@ -40,21 +40,21 @@ export default function Home() {
 					className="d-flex align-items-center justify-content-center ms-2"
 					style={{ width: "40px", height: "40px", gap: "10px"}}
 				>
-					<img src={facebookIcon} alt="Facebook" style={{ width: "24px", height: "24px" }} />
+					<img src={facebookIcon} alt="Facebook" style={{ width: "28px", height: "28px" }} />
 				</a>
 				<a
 					href="#"
 					className="d-flex align-items-center justify-content-center ms-2"
 					style={{ width: "40px", height: "40px"}}
 				>
-					<img src={x} alt="X" style={{ width: "24px", height: "24px" }} />
+					<img src={x} alt="X" style={{ width: "28px", height: "28px" }} />
 				</a>
 				<a
 					href="#"
 					className="d-flex align-items-center justify-content-center ms-2"
 					style={{ width: "40px", height: "40px", }}
 				>
-					<img src={instagramIcon} alt="Instagram" style={{ width: "24px", height: "24px" }} />
+					<img src={linkedIn} alt="Instagram" style={{ width: "28px", height: "28px", marginBottom: '5px' }} />
 				</a>
 				<a
 					href="#"
