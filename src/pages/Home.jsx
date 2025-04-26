@@ -1,5 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import cover from "../images/Cover.jpg";
+import facebookIcon from "../images/icons/FB.svg";
+import instagramIcon from "../images/icons/IN.svg";
+import youtubeIcon from "../images/icons/youtube.svg";
+import x from "../images/icons/x.svg";
+
 export default function Home() {
 	return (
 
@@ -24,15 +29,28 @@ export default function Home() {
 			</div>
 
 			<div
-				className="position-absolute d-flex gap-3"
+				className="position-absolute d-flex gap-3 align-items-start"
 				style={{
-					bottom: "16%", // Adjust this value for vertical position
-					right: "19%",  // Adjust this value for horizontal position
+					bottom: "16%",
+					right: "19%",
 				}}
 			>
-				<a href="#" className="text-white fs-4" style={{ marginRight: "1.5rem" }}><i className="fab fa-facebook-f"></i></a>
-				<a href="#" className="text-white fs-4" style={{ marginRight: "1.5rem" }}><i className="fab fa-instagram"></i></a>
-				<a href="#" className="text-white fs-4"><i className="fab fa-youtube"></i></a>
+				<a href="#" style={{ marginRight: "1.5rem" }}>
+					<img src={facebookIcon} alt="Facebook" style={{ width: "32px", height: "32px" }} />
+				</a>
+				<a href="#" style={{ marginRight: "1.5rem" }}>
+					<img src={x} alt="X" style={{ width: "32px", height: "32px" }} />
+				</a>
+				<a href="#" style={{ marginRight: "1.5rem" }}>
+					<img src={instagramIcon} alt="Instagram" style={{ width: "32px", height: "32px" }} />
+				</a>
+				<a href="#" style={{ marginRight: "1.5rem" }}>
+					<img src={youtubeIcon} alt="YouTube" style={{ width: "32px", height: "32px" }} />
+				</a>
+
+				{/*<a href="#" className="text-white fs-4" style={{ marginRight: "1.5rem" }}><img src={youtubeIcon} alt='X icon'></img></a>*/}
+				{/*<a href="#" className="text-white fs-4" style={{ marginRight: "1.5rem" }}><i className="fab fa-instagram"></i></a>*/}
+				{/*<a href="#" className="text-white fs-4"><i className="fab fa-youtube"></i></a>*/}
 			</div>
 		</div>
 	);
