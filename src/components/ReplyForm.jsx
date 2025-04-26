@@ -61,11 +61,11 @@ const ReplyForm = () => {
 						}}
 					/>
 				</div>
-				<div className="mb-3">
+				<div className="mb-3 d-flex flex-row">
 					<textarea
 						className="form-control"
 						placeholder="Your Message"
-						rows="4"
+						rows="3"
 						value={message}
 						onChange={(e) => setMessage(e.target.value)}
 						style={{
@@ -74,21 +74,23 @@ const ReplyForm = () => {
 							color: 'white',
 							borderRadius: '8px',
 							padding: '10px',
+							marginRight: '10px',
 						}}
 					></textarea>
+					<button
+						type="submit"
+						className="btn btn-primary"
+						style={{
+							borderRadius: '8px',
+							padding: '10px 20px',
+							backgroundColor: '#0A1523',
+							border: '1px solid white',
+						}}
+					>
+						Send
+					</button>
 				</div>
-				<button
-					type="submit"
-					className="btn btn-primary"
-					style={{
-						borderRadius: '8px',
-						padding: '10px 20px',
-						backgroundColor: '#0A1523',
-						border: '1px solid white',
-					}}
-				>
-					Send
-				</button>
+
 			</form>
 			{status && <div className="mt-3 text-success">{status}</div>}
 		</div>
