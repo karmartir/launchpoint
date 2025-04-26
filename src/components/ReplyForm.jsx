@@ -46,6 +46,23 @@ const ReplyForm = () => {
 					/>
 				</div>
 				<div className="mb-3">
+				<textarea
+					className="form-control"
+					placeholder="Your Message"
+					rows="3"
+					value={message}
+					onChange={(e) => setMessage(e.target.value)}
+					style={{
+						backgroundColor: 'rgba(255, 255, 255, 0.05)',
+						border: '1px solid rgba(255, 255, 255, 0.3)',
+						color: 'white',
+						borderRadius: '8px',
+						padding: '10px',
+						marginRight: '10px',
+					}}
+				></textarea>
+				</div>
+				<div className="mb-3 d-flex flex-row">
 					<input
 						type="email"
 						className="form-control"
@@ -58,39 +75,26 @@ const ReplyForm = () => {
 							color: 'white',
 							borderRadius: '8px',
 							padding: '10px',
-						}}
-					/>
-				</div>
-				<div className="mb-3 d-flex flex-row">
-					<textarea
-						className="form-control"
-						placeholder="Your Message"
-						rows="3"
-						value={message}
-						onChange={(e) => setMessage(e.target.value)}
-						style={{
-							backgroundColor: 'rgba(255, 255, 255, 0.05)',
-							border: '1px solid rgba(255, 255, 255, 0.3)',
-							color: 'white',
-							borderRadius: '8px',
-							padding: '10px',
 							marginRight: '10px',
 						}}
-					></textarea>
-					<div className="d-flex flex-column">
-					<button
-						type="submit"
-						className="btn btn-primary"
-						style={{
-							borderRadius: '8px',
-							padding: '10px 20px',
-							backgroundColor: '#0A1523',
-							border: '1px solid white',
-						}}
-					>
-						Send
-					</button>
+					/>
+					<div >
+						<button
+							type="submit"
+							className="btn btn-primary"
+							style={{
+								borderRadius: '8px',
+								padding: '10px 20px',
+								backgroundColor: '#0A1523',
+								border: '1px solid white',
+							}}
+						>
+							Send
+						</button>
 					</div>
+				</div>
+				<div className="mb-3 d-flex flex-row">
+
 				</div>
 
 			</form>
