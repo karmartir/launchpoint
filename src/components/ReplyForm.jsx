@@ -27,15 +27,7 @@ const ReplyForm = () => {
 
 	return (
 		<div className="reply-form-container" style={{marginBottom: '30px', textAlign: 'center' }}>
-			<h5
-				style={{
-					color: 'white',
-					fontFamily: 'Julius Sans One, sans-serif',
-					marginBottom: '25px',
-				}}
-			>
-				Fill out the form below
-			</h5>
+
 			<form onSubmit={handleSubmit} style={{ margin: '0 auto' }}>
 				<div className="mb-3">
 					<input
