@@ -40,21 +40,21 @@ export default function Home() {
 					className="d-flex align-items-center justify-content-center"
 					style={{ width: "40px", height: "40px", gap: "10px"}}
 				>
-					<img src={facebookIcon} alt="Facebook" style={{ width: "32px", height: "32px" }} />
+					<img src={facebookIcon} alt="Facebook" style={{ width: "24px", height: "24px" }} />
 				</a>
 				<a
 					href="#"
 					className="d-flex align-items-center justify-content-center"
 					style={{ width: "40px", height: "40px"}}
 				>
-					<img src={x} alt="X" style={{ width: "32px", height: "32px" }} />
+					<img src={x} alt="X" style={{ width: "24px", height: "24px" }} />
 				</a>
 				<a
 					href="#"
 					className="d-flex align-items-center justify-content-center"
 					style={{ width: "40px", height: "40px", }}
 				>
-					<img src={instagramIcon} alt="Instagram" style={{ width: "32px", height: "32px" }} />
+					<img src={instagramIcon} alt="Instagram" style={{ width: "24px", height: "24px" }} />
 				</a>
 				<a
 					href="#"
