@@ -48,3 +48,13 @@
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .success-stories-image {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .success-stories-image.in-view {
+        transform: scale(1.05); /* Slight zoom on scroll */
+    }
+}
