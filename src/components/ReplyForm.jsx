@@ -26,7 +26,7 @@ const ReplyForm = () => {
 	};
 
 	return (
-		<div className="reply-form-container" style={{marginTop: '150px', marginBottom: '30px', textAlign: 'center' }}>
+		<div className="reply-form-container" style={{marginBottom: '30px', textAlign: 'center' }}>
 			<h5
 				style={{
 					color: 'white',
@@ -34,9 +34,9 @@ const ReplyForm = () => {
 					marginBottom: '25px',
 				}}
 			>
-				If you want to contact us, please fill out the form below.
+				Fill out the form below
 			</h5>
-			<form onSubmit={handleSubmit} style={{ maxWidth: '500px', margin: '0 auto' }}>
+			<form onSubmit={handleSubmit} style={{ margin: '0 auto' }}>
 				<div className="mb-3">
 					<input
 						type="text"

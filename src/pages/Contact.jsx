@@ -3,16 +3,15 @@ import {Container} from 'react-bootstrap';
 import ReplyForm from '../components/ReplyForm.jsx';
 
 const Contact = () => {
-	const styles = {fontSize: '30px', fontWeight: 'lighter', color: 'rgba(255,253,253,0.62)', textAlign: "center"}
+	const styles = {fontSize: '28px', fontWeight: 'lighter', color: 'rgba(255,253,253,0.62)', textAlign: "center"}
 	return (
 
 		<div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
-			<Container >
+			<Container style={{marginTop: '150px'}} >
 				<ReplyForm />
 				<p style={styles} >
 					880 Rochester Rd, <br/>
-					Ontario, California 91764  <br/>
-					United States  <br/>
+					Ontario, California 91764, United States  <br/>
 					<br/>
 					<span style={{fontSize: '1.6rem', fontWeight: 'lighter'}} className="mobile-font-size">
 					Head office phone: <span>(909) 481-8411</span>   <br/>
