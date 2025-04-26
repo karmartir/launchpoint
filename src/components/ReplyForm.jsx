@@ -77,6 +77,7 @@ const ReplyForm = () => {
 							marginRight: '10px',
 						}}
 					></textarea>
+					<div className="d-flex flex-column">
 					<button
 						type="submit"
 						className="btn btn-primary"
@@ -89,6 +90,7 @@ const ReplyForm = () => {
 					>
 						Send
 					</button>
+					</div>
 				</div>
 
 			</form>
