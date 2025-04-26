@@ -9,11 +9,17 @@
 }
 
 .success-stories-image {
-    object-fit: contain;  /* Ensures the image covers the area without distorting */
+    object-fit: cover;  /* Ensures the image covers the area */
     max-width: 100%;     /* Ensures the image is responsive and doesn't overflow */
     height: auto;        /* Adjusts height automatically based on width */
     border-radius: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ensure transition works in both directions */
+    position: relative;  /* Ensure z-index works properly */
+}
+
+.success-stories-info {
+    position: relative; /* Make sure the text container has a position context for z-index */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
 .success-stories-link {
@@ -43,10 +49,24 @@
     column-gap: 0; /* reduce horizontal space */
     row-gap: 2rem;    /* keep vertical space if you want */
 }
+.success-stories-image:hover + .success-stories-info {
+    color: black; /* Change text color to black on hover */
+    z-index: 10;  /* Bring the text above the image */
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background on hover */
+    border-radius: 8px; /* Add border radius to the background */
+    transform: translateY(-35px); /* Move the text box upwards */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for both effects */
+}
+
+.success-stories-image + .success-stories-info {
+    transition: transform 0.3s ease; /* Ensure the text box moves smoothly */
+    transform: translateY(0); /* Return to original position */
+}
 .success-stories-image:hover {
-    transform: scale(1.25); /* Scale up on hover */
+    transform: scale(1.25); /* Scale all sides but cut the bottom */
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
     cursor: pointer;
+    object-position: top; /* Keeps the image aligned to the top when scaled */
 }
 
 @media (max-width: 768px) {
