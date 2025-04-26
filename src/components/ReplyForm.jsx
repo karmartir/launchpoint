@@ -87,7 +87,7 @@ const ReplyForm = () => {
 				</div>
 				<button
 					type="submit"
-					className="btn-sm btn-primary"
+					className="btn btn-primary"
 					style={{
 						borderRadius: '8px',
 						padding: '10px 20px',
