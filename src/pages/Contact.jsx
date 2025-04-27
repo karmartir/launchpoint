@@ -7,7 +7,7 @@ const Contact = () => {
 	return (
 
 		<div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
-			<Container style={{marginTop: '150px'}} >
+			<Container style={{marginTop: '130px'}} >
 				<ReplyForm />
 				<p style={styles} >
 					880 Rochester Rd, <br/>
