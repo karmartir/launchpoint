@@ -5,68 +5,65 @@
 .success-stories-title {
     font-size: 24px;
     font-weight: lighter;
-    color: white; /* Make the title text white */
+    color: white;
 }
 
 .success-stories-image {
-    object-fit: cover;  /* Ensures the image covers the area */
-    max-width: 100%;     /* Ensures the image is responsive and doesn't overflow */
-    height: auto;        /* Adjusts height automatically based on width */
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
     border-radius: 5px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ensure transition works in both directions */
-    position: relative;  /* Ensure z-index works properly */
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    position: relative;
 }
 
 .success-stories-info {
-    position: relative; /* Make sure the text container has a position context for z-index */
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    position: relative;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 83%;
+    margin: 0 auto;
 }
 
 .success-stories-link {
-    text-decoration: none; /* Remove link styles */
+    text-decoration: none;
+}
+
+.success-stories-info h5,
+.success-stories-info h6,
+.success-stories-info p {
+    font-weight: lighter;
+    color: white !important;
 }
 
 .success-stories-info p {
     font-style: italic;
-    color: white !important; /* Ensure the title is white and override any other color */
-}
-
-.success-stories-info h5,h6 {
-    font-weight: lighter;
-
-    color: white; /* Ensure the name is white */
-}
-
-.success-stories-info p {
-    font-weight: lighter;
-
-    color: white; /* Ensure the title is white */
 }
 
 .success-stories-row {
     margin-top: 2px;
     margin-bottom: 2px;
-    column-gap: 0; /* reduce horizontal space */
-    row-gap: 2rem;    /* keep vertical space if you want */
+    column-gap: 0;
+    row-gap: 2rem;
 }
+
 .success-stories-image:hover + .success-stories-info {
-    color: black; /* Change text color to black on hover */
-    z-index: 10;  /* Bring the text above the image */
-    background-color: rgba(0, 0, 0, 0.6); /* Dark background on hover */
-    border-radius: 8px; /* Add border radius to the background */
-    transform: translateY(-35px); /* Move the text box upwards */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for both effects */
+    color: black;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    transform: translateY(-35px);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .success-stories-image + .success-stories-info {
-    transition: transform 0.3s ease; /* Ensure the text box moves smoothly */
-    transform: translateY(0); /* Return to original position */
+    transform: translateY(0);
 }
+
 .success-stories-image:hover {
-    transform: scale(1.25); /* Scale all sides but cut the bottom */
+    transform: scale(1.10);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
     cursor: pointer;
-    object-position: top; /* Keeps the image aligned to the top when scaled */
+    object-position: top;
 }
 
 @media (max-width: 768px) {
@@ -75,6 +72,17 @@
     }
 
     .success-stories-image.in-view {
-        transform: scale(1.05); /* Slight zoom on scroll */
+        transform: scale(1.05);
+    }
+
+    .success-stories-image:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .success-stories-image:hover + .success-stories-info {
+        background-color: transparent;
+        transform: none;
+        color: white;
     }
 }
