@@ -4,6 +4,7 @@ import facebookIcon from "../images/icons/facebook.svg";
 import linkedIn from "../images/icons/linkedIn.svg";
 import youtubeIcon from "../images/icons/youtube.svg";
 import x from "../images/icons/aks.svg";
+import whatsup from "../images/icons/whatsapp.svg";
 
 export default function Home() {
 	return (
@@ -56,6 +57,13 @@ export default function Home() {
 				>
 					<img src={linkedIn} alt="Instagram" style={{ width: "28px", height: "28px", marginBottom: '5px' }} />
 				</a>
+				<a
+				href="#"
+				className="d-flex align-items-center justify-content-center ms-2"
+				style={{ width: "40px", height: "40px", }}
+			>
+				<img src={whatsup} alt="YouTube" style={{ width: "30px", height: "30px", marginTop: '2px' }} />
+			</a>
 				<a
 					href="#"
 					className="d-flex align-items-center justify-content-center ms-2"
