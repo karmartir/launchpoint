@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Container} from 'react-bootstrap';
 
 const styles = {fontSize: '25px', fontWeight: 'lighter', color: 'rgba(255,253,253,0.62)'}
@@ -6,6 +6,10 @@ const headerStyle = { fontSize: '45px', fontWeight: 'lighter', color: 'rgba(255,
 
 
 const About = () => {
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
+
 	return (
 
 		<Container style={{ width: '75%', marginTop: '100px'}} >

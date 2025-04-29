@@ -1,10 +1,13 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
 import { OurTeamData } from '../data/OurTeamData.jsx';
-import './SuccessStories.css'; // Import the new CSS file
+import './SuccessStories.css';
+import {useEffect} from 'react'; // Import the new CSS file
 
 const OurTeam = () => {
-
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
 	return (
 		<Container className="text-center success-stories-container" style={{ maxWidth: "1140px", marginTop: '150px' }}>
 			{/*<div className="ms-5">*/}

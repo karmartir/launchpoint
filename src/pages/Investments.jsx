@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
 import first from '../images/logos/forma-logo-1.png';
 import second from '../images/logos/forma-logo-2.png';
@@ -6,6 +6,10 @@ import third from '../images/logos/forma-logo-3.png';
 
 
 const Investments = () => {
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
+
 	return (
 
 

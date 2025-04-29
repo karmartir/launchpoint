@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Container} from 'react-bootstrap';
 import ReplyForm from '../components/ReplyForm.jsx';
 
 const Contact = () => {
 	const styles = {fontSize: '28px', fontWeight: 'lighter', color: 'rgba(255,253,253,0.62)', textAlign: "center"}
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
 	return (
 
 		<div className="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
