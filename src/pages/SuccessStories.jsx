@@ -2,8 +2,15 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
 import { peopleData } from '../data/PeopleData.jsx';
 import './SuccessStories.css'; // Import the new CSS file
+import { useEffect } from 'react';
 
 const SuccessStories = () => {
+
+
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
 
     return (
 			<Container className="text-center success-stories-container" style={{ maxWidth: "1140px" , marginTop: '150px'}}>

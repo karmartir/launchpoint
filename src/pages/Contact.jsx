@@ -17,7 +17,7 @@ const Contact = () => {
 					<br/>
 					<span style={{fontSize: '1.6rem', fontWeight: 'lighter'}} className="mobile-font-size">
 					Head office phone: <span>(909) 481-8411</span>   <br/>
-					Whatsapp: (909) 482-8411  <br/>
+					{/*Whatsapp: (909) 482-8411  <br/>*/}
 					General inquiries:  info@launchpoint.com  <br/>
 					For partnership:  johansson@launchpoint.com  <br/>
 					<span style={{ opacity: 0.7, fontSize: '0.9rem' }}>
