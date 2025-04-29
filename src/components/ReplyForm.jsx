@@ -33,7 +33,7 @@ const ReplyForm = () => {
 					<input
 						type="text"
 						className="form-control"
-						placeholder="Name, Last Name"
+						placeholder="Name"
 						value={name}
 						onChange={(e) => setName(e.target.value)}
 						style={{
@@ -49,7 +49,7 @@ const ReplyForm = () => {
 				<textarea
 					className="form-control"
 					placeholder="Your Message"
-					rows="3"
+					rows="2"
 					value={message}
 					onChange={(e) => setMessage(e.target.value)}
 					style={{
