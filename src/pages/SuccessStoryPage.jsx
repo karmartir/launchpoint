@@ -1,8 +1,13 @@
-import React from "react";
+import React, {useEffect} from 'react';
 import { useParams, useNavigate } from "react-router-dom";
 import {peopleData} from '../data/PeopleData.jsx';
 
 const SuccessStoryPage = () => {
+
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
+
 	const { personId } = useParams();
 	const person = peopleData[personId];
 	const styles = {fontSize: '1.1rem', fontWeight: 'lighter', color: 'rgba(255,253,253,0.62)'}
@@ -13,6 +18,7 @@ const SuccessStoryPage = () => {
 		}, 500);
 	};
 	if (!person) return <h2 className="text-center mt-5">Person not found.</h2>;
+
 
 	return (
 		<div className="container" style={{ marginTop: '150px'}}>
