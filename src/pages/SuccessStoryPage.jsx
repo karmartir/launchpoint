@@ -26,7 +26,7 @@ const SuccessStoryPage = () => {
 					<p className="mt-3 bio-text" style={styles}>{person.description}</p>
 
 				</div>
-				<div className="mt-4 text-end">
+				<div className="mt-4 text-end mb-0 mb-sm-5">
 					<button onClick={handleBackClick} className="btn btn-secondary btn-md">Back to All Stories</button>
 				</div>
 			</div>
