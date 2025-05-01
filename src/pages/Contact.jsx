@@ -10,7 +10,7 @@ const Contact = () => {
 	return (
 
 
-		<Container style={{ maxWidth: '50%', marginTop: '150px'}} >
+		<Container style={{ maxWidth: '60%', marginTop: '150px'}} >
 
 				<ReplyForm />
 				<p className="address" style={styles} >
