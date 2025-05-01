@@ -13,13 +13,13 @@ const Contact = () => {
 		<Container style={{ maxWidth: '50%', marginTop: '150px'}} >
 
 				<ReplyForm />
-				<p style={styles} >
+				<p className="address" style={styles} >
 					880 Rochester Rd, <br/>
 					Ontario, California 91764,
 					<br/>
 					United States  <br/>
 					<br/>
-					<span style={{fontSize: '1.6rem', fontWeight: 'lighter'}} className="mobile-font-size">
+					<span style={{fontSize: '1.6rem', fontWeight: 'lighter'}} className="mobile-font-size address-text">
 					Head office phone: <span>(909) 481-8411</span>   <br/>
 					Whatsapp: (909) 482-8411  <br/>
 					General inquiries:  info@launchpoint.com  <br/>

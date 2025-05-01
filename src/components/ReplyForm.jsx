@@ -26,9 +26,9 @@ const ReplyForm = () => {
 	};
 
 	return (
-		<div className="reply-form-container" style={{marginBottom: '30px', textAlign: 'center' }}>
+		<div className="reply-form-container" style={{marginBottom: '10px', textAlign: 'center' }}>
 
-			<form onSubmit={handleSubmit} style={{ margin: '0 auto' }}>
+			<form onSubmit={handleSubmit}>
 				<div className="mb-3">
 					<input
 						type="text"
