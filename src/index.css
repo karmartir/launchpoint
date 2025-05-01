@@ -51,10 +51,13 @@
 }
 @media (max-width: 720px) {
     .address {
-        font-size: 80% !important;
+        font-size: 90% !important;
     }
 
     .address-text {
-        font-size: 80% !important;
+        font-size: 90% !important;
+    }
+    .text-devs{
+        font-size: 75% !important;
     }
 }

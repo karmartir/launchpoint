@@ -24,7 +24,7 @@ const Contact = () => {
 					Whatsapp: (909) 482-8411  <br/>
 					General inquiries:  info@launchpoint.com  <br/>
 					For partnership:  johansson@launchpoint.com  <br/>
-					<span style={{ opacity: 0.7, fontSize: '0.9rem' }}>
+					<span style={{ opacity: 0.7, fontSize: '0.9rem' }} className="text-devs">
 					  UI/UX by H. Aslanyan | Development by K. Martirosyan ©
 					</span>
 						</span>
