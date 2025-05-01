@@ -26,7 +26,9 @@ const Contact = () => {
 					General inquiries:  info@launchpoint.com  <br/>
 					For partnership:  johansson@launchpoint.com  <br/>
 					<span style={{ opacity: 0.7, fontSize: '0.9rem' }} className="text-devs">
-					  UI/UX by H. Aslanyan | Development by K. Martirosyan ©
+					  UI/UX by H. Aslanyan |
+						<br/>
+						Development by K. Martirosyan ©
 					</span>
 						</span>
 				</p>
