@@ -13,7 +13,7 @@ const About = () => {
 	return (
 
 		<Container style={{ width: '75%', marginTop: '100px'}} >
-			<h2 className='mt-5' style={headerStyle}>Our mission</h2>
+			<h2 className='mt-5 title-about-us' style={headerStyle}>Our mission</h2>
 			<p style={styles}>
 				At <i>LaunchPoint</i>, we aim to empower startups by providing them with access to capital,
 				resources, and a supportive network, while offering investors exclusive opportunities to engage with high-growth ventures.
