@@ -39,7 +39,7 @@ export default function CustomNavbar() {
 			expand="lg"
 			fixed="top"
 			expanded={expanded}
-			onToggle={() => setExpanded(!expanded)}
+			onToggle={(isExpanded) => setExpanded(isExpanded)}
 			style={{
 				zIndex: 1000,
 				top: "40px",
@@ -52,7 +52,10 @@ export default function CustomNavbar() {
 				</Navbar.Brand>
 				<Navbar.Toggle
 					aria-controls="navbar-nav"
-					onClick={() => setExpanded(!expanded)}
+					onClick={(e) => {
+						e.stopPropagation();
+						setExpanded((prev) => !prev);
+					}}
 					className="custom-hamburger"
 					style={{
 						borderColor: "white",
@@ -72,7 +75,7 @@ export default function CustomNavbar() {
 					id="navbar-nav"
 					ref={collapseRef}
 					style={{
-						padding: expanded && window.innerWidth < 992 ? "15px" : "0",
+						// padding: expanded && window.innerWidth < 992 ? "15px" : "0",
 						borderRadius: expanded && window.innerWidth < 992 ? "10px" : "0",
 						backgroundColor: expanded ? "rgba(10, 21, 35, 0.5)" : "transparent",
 
