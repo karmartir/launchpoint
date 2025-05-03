@@ -54,7 +54,10 @@ export default function CustomNavbar() {
 					aria-controls="navbar-nav"
 					onClick={(e) => {
 						e.stopPropagation();
-						setExpanded((prev) => !prev);
+						const newExpanded = !expanded;
+						setExpanded(newExpanded);
+						e.currentTarget.style.borderWidth = newExpanded ? "2px" : "1px";
+
 					}}
 					className="custom-hamburger"
 					style={{
