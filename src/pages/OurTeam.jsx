@@ -9,7 +9,7 @@ const OurTeam = () => {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}, []);
 	return (
-		<Container className="text-center success-stories-container" style={{ maxWidth: "1140px", marginTop: '150px' }}>
+		<Container className="text-center success-stories-container" style={{ maxWidth: "1140px", marginTop: '150px', marginBottom: '50px' }}>
 			{/*<div className="ms-5">*/}
 			{/*	<h2 className="success-stories-title">*/}
 			{/*		Meet our team of passionate experts driving bold ideas forward.*/}
