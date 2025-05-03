@@ -56,11 +56,10 @@ export default function CustomNavbar() {
 						e.stopPropagation();
 						const newExpanded = !expanded;
 						setExpanded(newExpanded);
-						e.currentTarget.style.borderWidth = newExpanded ? "2px" : "1px";
-
 					}}
 					className="custom-hamburger"
 					style={{
+						pointerEvents: expanded ? "none" : "auto",
 						borderColor: "white",
 						color: "white",
 						backgroundColor: expanded ? "rgb(248,248,248, 0)" : "rgb(250,250,250, 0)",
@@ -78,8 +77,7 @@ export default function CustomNavbar() {
 					id="navbar-nav"
 					ref={collapseRef}
 					style={{
-						// padding: expanded && window.innerWidth < 992 ? "15px" : "0",
-						borderRadius: expanded && window.innerWidth < 992 ? "10px" : "0",
+						borderRadius: expanded && window.innerWidth < 992 ? "1px" : "0",
 						backgroundColor: expanded ? "rgba(10, 21, 35, 0.5)" : "transparent",
 
 					}}
