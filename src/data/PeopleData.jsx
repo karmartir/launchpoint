@@ -11,7 +11,7 @@ export const peopleData = {
 	emily: {
 		id: "emily",  // Added id
 		name: "Emily Roberts",
-		country: "United Kingdom",
+		country: "UK",
 		title: "Social Entrepreneur",
 		img: emily,
 		description: "Emily Roberts, a passionate social entrepreneur from the United Kingdom, had a clear vision to create sustainable fashion solutions, but lacked the necessary business expertise to turn her idea into reality. Through our mentorship programs, she gained not only the skills but also the network to navigate the complexities of the fashion industry. She learned how to source eco-friendly materials, ensure ethical production, and create a brand that resonates with conscious consumers. With this knowledge, she successfully launched her eco-friendly clothing brand, which has since gained significant traction. Now, Emily’s brand is making waves across Europe, advocating for a more sustainable and responsible approach to fashion. By partnering with other eco-conscious companies and influencing industry standards, Emily continues to push for a greener future in fashion, inspiring both consumers and businesses alike."
@@ -27,7 +27,7 @@ export const peopleData = {
 	john: {
 		id: "john",  // Added id
 		name: "John Park",
-		country: "United States",
+		country: "USA",
 		title: "Tech Innovator",
 		img: john,
 		description: "John Park, a visionary tech innovator from the United States, approached us with a groundbreaking idea for an AI-powered platform designed to transform urban infrastructure. By harnessing machine learning algorithms and real-time data analysis, he developed a sophisticated system capable of optimizing traffic flow, reducing energy consumption, and improving the efficiency of city services. His platform not only helps streamline city operations but also contributes to creating smarter, more sustainable urban environments. With our mentorship and resources, John was able to refine his concept and bring it to life as a fully functional solution. Today, his startup is already being implemented in several major cities worldwide, positively impacting the daily lives of thousands of citizens. As the platform continues to expand, it attracts investment from leading tech companies, including Foxconn, and is shaping the future of smart cities globally."
@@ -68,7 +68,7 @@ export const peopleData = {
 	jasim: {
 		id: "jasim",
 		name: "Jasim Ramsay",
-		country: "United Kingdom",
+		country: "UK",
 		title: "An innovative entrepreneur, music producer",
 		img: jasim,
 		description: "Jasim Ramsay, a talented innovator from the United Kingdom, came to us with a bold vision — to\n" +
