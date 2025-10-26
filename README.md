@@ -32,4 +32,4 @@ git clone https://github.com/karmartir/launchpoint.git
 
 Karen Martirosyan – Full-Stack Developer & UI/UX Designer
 
-H. Aslanyan – UI/UX Designer (collaborated on design and user experience)
+Hrant Aslanyan – UI/UX Designer (collaborated on design and user experience)
