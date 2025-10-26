@@ -1,12 +1,35 @@
-# React + Vite
+# Launchpoint
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demo](https://launchpoint.netlify.app/)
 
-Currently, two official plugins are available:
+## 🚀 About
+**Launchpoint** is a platform connecting innovative startups with visionary investors. It allows entrepreneurs to showcase their ideas and helps investors discover promising projects. The platform emphasizes clean design, usability, and responsiveness.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
+- Browse startups and investment opportunities.
+- View success stories and company highlights.
+- Fully responsive design for desktop and mobile.
+- Built with a focus on accessibility and user experience.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS  
+- **Routing & State:** React Router, React hooks  
+- **Styling:** Tailwind CSS  
+- **Deployment:** Netlify  
+
+---
+
+## 🛠 Installation & Local Setup
+1. Clone the repository:  
+```bash
+git clone https://github.com/karmartir/launchpoint.git
+```
+## 👩‍💻 Team
+
+Karen Martirosyan – Full-Stack Developer & UI/UX Designer
+
+H. Aslanyan – UI/UX Designer (collaborated on design and user experience)
